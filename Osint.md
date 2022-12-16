@@ -84,8 +84,6 @@ The closest gym is `Galaxy Gym Montplaisir`. Acceding google maps reviews you'll
 
 Flag : `Securinets{TH3_R34L_G306U3SS3R}`
 
-
-From the file name, we know its the secret token to Asana, that helps companies track and manage their work. So now we need to find the commit in which the secret was added. It is added in just a few commits prior - `added .gitignore`. Quick intro to .gitignore: A gitignore file specifies intentionally untracked files that Git should ignore. This includes files that contain confidential information, like passwords and secret keys.
 <br /> <br />
 ## Anonymous 3.0 | 800 pts
 ### Description
