@@ -8,7 +8,7 @@
 [Extra an0n    - 800 points](#Extra-an0n--800-pts) \
 [La5t_k3yyyyyy - 800 points](#la5t_k3yyyyyy--800-pts) \
 [1S1 search -    500 points](#1s1-search--500-pts) \
-[___TAR___ -     500 points](#tar--500-pts) \
+[___TAR___ -     500 points](#tar--500-pts) \	
 [Ge0Guess3r -	1000 points](#ge0guess3r--1000-pts)
 
 ## An0nym0us | 500 pts
