@@ -106,7 +106,10 @@ Author: NDLx0
 This challenge had quite a few steps. As someone who hadn't tried much of OSINT before this,
 One of the main informations you got from last challenge is the new username. So why u don't look that up with sherlock again: python3 sherlock.py M0khse7er
 This time a twitter account will appear.Acceding to it you'll see these 2 tweets :
+
 ![](images/tweet.png)
+
+
 The first thing to come to mind is finding a way to see the deleted tweets. After some digging, you'll discover that [The Internet Archive](https://archive.org/web/), often known as the Wayback Machine, allows users to see archived versions of websites. You must copy the Twitter account address and look it up on there
 The results are these :
 .![](images/snap.png)
@@ -137,6 +140,7 @@ This is the image :
 Examining the metadata info, you'll find nothing, That's why you need to focus on the barcode in the letter.
 After some serious digging into the rabbit hole,You'll find out that this is an IMB Barcode, which will lead you to this tool by USPS to decode IMB barcodes:
 ![](images/barcode.png)
+
 On decoding the barcode, we get 5 numeric parameters & on joining them together we get a large numeric sequence:
 `11048951127249531051105410333` And guess what it is ASCII again so decoding it will get you the flag 
 `Securinets{n0T_pH15in6g!}`
@@ -155,12 +159,17 @@ You need to look for a tool that Search YouTube by location for geotagged videos
 Bringing what you found from `Wigle` is the location of the bssid which is near Britsh Council. Now comes the tool:
 While looking through one of the few videos, you'll come across this: 
 ![](images/play.png)
+
 In the youtube channel `about` you'll notice an email address which is : nidhal.h.loussaief@gmail.com
 Now you have the name of our guy but not the full name because it's missing the middle name that we can see it starts with `h So we keep looking in the channel until we come across a playlist made buy our guy:
+
 `![](images/yt.png)
+
 We see that there's another guy added to the party adding videos to the playlist.
 We check his channel and it's that little kid and we can see clearly his full name 
+
 ![](images/fr5.png)
+
 That gives us our guy's full name which is `nidhal hamden loussaief`
 Flag: `Securinets{nidhal_hamden_loussaief}`
 <br /> <br />
@@ -227,24 +236,37 @@ Clarification: md5(https://fr.wikipedia.org/wiki/[redacted])
 0x0.rar
 ### Solution
 Opening the rar file with the first password gets you a new rare file named 1x0.rar and an image: 
+
 ![](images/1x0.png)
+
 we run a search on google using google image we find that this picture in la marsa but we're looking for more specification.After some digging you'll find out thats Gammarth.
 All you need now is to do what the description told you to do.
+
 Passing to the second image: 
+
 ![](images/2x0.png)
+
 Zooming at the picture you'll see cinéphile searching it you'll know that there's only one in Tunisia and it's in elmenzah and that's your location.
 Third and last one is quite hard to find but not impossible: 
+
 ![](images/3x0.png)
+
 Examining the image and trying to find some clues,
+
 1/We're on a highway 
+
 Except that you'll think you're on a dead end but no, If you look closely, you'll notice a "telecom," which comes to be useful because we have our own infrastructure map. https://openinframap.org/
+
 Keeping only labels and telecom layers there make things easier for you.
- Now come the first clue to be useful which will filtrate where to look
- To find finally this: 
+
+Now come the first clue to be useful which will filtrate where to look
+To find finally this: 
+
  ![](images/mh.png)
- That will lead you to your place which is mohamedia
- 
- finally you'll find a txt file with: 
+
+That will lead you to your place which is mohamedia
+	
+finally you'll find a txt file with: 
 Flag: `Securinets{fc4297c3ca24554c73e2b8374d13f41d}`
 
 
