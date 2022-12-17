@@ -1,14 +1,15 @@
 # OSINT minCTF ISI
-### Challenge Group | medium | OSINT | 1842 points
+### Challenge Group | OSINT | 5900 points
 
-[An0nym0us-      500 points](#An0nym0us--500-pts) \
-[Anonymous 1.0 - 500 points](#Anonymous-1.0-500-pts) \
-[Anonymous 2.0 - 500 points](#Anonymous-2.0-500-pts) \
-[Anonymous 3.0 - 800 points](#Anonymous-2.0-800-pts) \
+[An0nym0us-      500 points](#an0nym0us--500-pts) \
+[Anonymous 1.0 - 500 points](#anonymous-1.0-500-pts) \
+[Anonymous 2.0 - 500 points](#anonymous-2.0-500-pts) \
+[Anonymous 3.0 - 800 points](#anonymous-3.0-800-pts) \
 [Extra an0n    - 800 points](#Extra-an0n--800-pts) \
-[La5t_k3yyyyyy - 800 points](#La5t-k3yyyyyy-800-pts) \
-[1S1 search -    500 points](#1S1-search-500-pts) \
-[___TAR___ -     500 points](#___TAR___-500-pts) 
+[La5t_k3yyyyyy - 800 points](#la5t-k3yyyyyy-800-pts) \
+[1S1 search -    500 points](#1s1-search--500-pts) \
+[___TAR___ -     500 points](#tar--500-pts) 
+[Ge0Guess3r -	1000 points](#ge0guess3r--1000-pts)
 
 ## An0nym0us | 500 pts
 ### Description
