@@ -75,10 +75,16 @@ Author: NDLx0
 ### Solution
 The initial thought is to use Google to find out how many kilometers a regular person walks in 40 minutes to get this .
 ![](images/40.png)
+
 Knowing the coordinates of ISI, you'll need to check every gym on a radius of 4km. Quite exhausting isn't it ?
 Here's this tool [KML Circle Generator](https://kml4earth.appspot.com/circlegen.html) that will give you a file `circle.kml`
 to then upload in here [google maps](https://www.google.com/maps/d/u/0/)
+
+
+
 ![](images/circle.png)
+
+
 
 The closest gym is `Galaxy Gym Montplaisir`. Acceding google maps reviews you'll find your flag here : 
 
