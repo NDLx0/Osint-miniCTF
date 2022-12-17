@@ -50,14 +50,14 @@ Results will get you ASCII code So u decrypt it with any tool to get the flag : 
 The reports we received about an anonymous hacker in ISI are true.
 He goes by the alias "mookh5e7er" and has obtained some sensitive information. 
 We need your help to find and bring the flag Scavenger!
-Flag format Securinets{XXX_X_XXXX_XX}
-Author: NDLx0]()
+Flag format Securinets{XXX X XXXX XX}
+Author: NDLx0
 <br /> <br />
 ### Solution
 The challenge provided you a username.The first natural step is to look that up in social media.You can do it manually or install [sherlock](https://github.com/sherlock-project/sherlock) and do this command : python3 sherlock.py mookh5e7er
-There you'll find an instagram account with an interesting video. Opening it you'll hear a sound of dial tones.
-After knowing that what matters most knowing what was the user typing, you'll need first to download the video to extract the sound and you can use this command : 
-`ffmpeg -i <infile> -ac 2 -f wav <outfile>`
+There you'll find an instagram account with an interesting video. Opening it you'll hear a sound of dial tones.                                                                                
+After knowing that what matters most knowing what was the user typing, you'll need first to download the video to extract the sound and you can use this command :                          
+`ffmpeg -i <infile> -ac 2 -f wav <outfile>`                                                                                                                                                    
 Then you can run the file through this tool :  [dtmf-detect](https://unframework.github.io/dtmf-detect/)
 to decodes the tones into 435446764696165#665#666#725#66661677
 Again running what you have in [https://www.dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier) will get you to this [MMulti-tap Phone (SMS)](https://www.dcode.fr/multitap-abc-cipher)
@@ -74,13 +74,15 @@ Author: NDLx0
 
 ### Solution
 The initial thought is to use Google to find out how many kilometers a regular person walks in 40 minutes to get this .
-![](image]()s/40.png)
+![](images]()s/40.png)
 Knowing the coordinates of ISI, you'll need to check every gym on a radius of 4km. Quite exhausting isn't it ?
 Here's this tool [KML Circle Generator](https://kml4earth.appspot.com/circlegen.html) that will give you a file `circle.kml`
 to then upload in here [google maps](https://www.google.com/maps/d/u/0/)
-![](image]()s/circle.png)
+![](images]()s/circle.png)
+
 The closest gym is `Galaxy Gym Montplaisir`. Acceding google maps reviews you'll find your flag here : 
-![](image]()s/4km.png)
+
+![](images]()s/4km.png)
 
 Flag : `Securinets{TH3_R34L_G306U3SS3R}`
 
