@@ -61,7 +61,7 @@ After knowing that what matters most knowing what was the user typing, you'll ne
 `ffmpeg -i <infile> -ac 2 -f wav <outfile>`                                                                                                                                                    
 Then you can run the file through this tool :  [dtmf-detect](https://unframework.github.io/dtmf-detect/)
 to decodes the tones into 435446764696165#665#666#725#66661677
-Again running what you have in [https://www.dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier) will get you to this [MMulti-tap Phone (SMS)](https://www.dcode.fr/multitap-abc-cipher)
+Again running what you have in [https://www.dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier) will get you to this [Multi-tap Phone (SMS)](https://www.dcode.fr/multitap-abc-cipher)
 Running the ciphertext through it will get you SECURINETS LEFT BRACE DID U MISS ME RIGHT BRACE 
 which is the flag `Securinets{DID U MISS ME}`
 <br /> <br />
