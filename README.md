@@ -1,6 +1,5 @@
 # Osint-miniCTF
 Here's The official writeups of OSINT miniCTF ISI :
-# OSINT minCTF ISI
 ### Challenge Group | OSINT | 5900 points
 
 [An0nym0us-      500 points](#an0nym0us--500-pts) \
